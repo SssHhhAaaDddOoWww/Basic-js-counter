@@ -1,0 +1,35 @@
+body{
+    
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+ button{
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    background-color: aliceblue;
+    color: black;
+ }
+ button:hover{
+    background-color:orange ;
+    color: white;
+    transition: 0.22s;
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+ }
+ #zero{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    position: relative;
+    top:450px;
+ }
